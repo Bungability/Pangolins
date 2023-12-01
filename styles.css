@@ -1,0 +1,162 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+  
+  html {
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: beige;
+    margin: 0px;
+  }
+  
+  h1 {
+    font-family: pangolin, arial, sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px;
+  }
+  
+  h2 {
+    font-family: pangolin, arial, sans-serif;
+    font-size: 1.8rem;
+    font-style: italic;
+    color: forestgreen;
+  }
+  
+  main {
+    width: 80%;
+    margin: 0px auto;
+  }
+  
+  nav {
+    background: forestgreen;
+    height: 150px;
+    width:  100vw;
+    text-align: center;
+    color: #fddbaf;
+    border-bottom: 7px solid yellowgreen;
+    position: sticky;
+    top: 0px;
+  }
+  
+  nav > ul {
+    margin-top: 10px;
+  }
+  
+  p {
+    padding-left: 30px;
+    margin-top: 0px;
+  }
+  
+  section li {
+    margin-bottom: 1em;
+  }
+  
+  table {
+    width: 100%;
+    border: 5px solid forestgreen;
+  }
+  
+  th, td {
+    border-style: solid;
+    padding: 5px;
+  }
+  
+  footer > p {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  a {
+    color: #047304;
+  }
+  
+  a:visited {
+    color: #617556;
+  }
+  
+  
+  
+  .flexContainer {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+  }
+  
+  .flexChild {
+    flex: 1;
+  }
+  
+  .navButton {
+    display: inline;
+    width: 30%;
+    margin: 0px 40px;
+    padding: 10px 20px;
+    background: #fddbaf;
+  }
+  
+  .navButton > a {
+    text-decoration: none;
+    color: #0f550f;
+  }
+  
+  .navButton > a:hover {
+    text-decoration: underline;
+  }
+  
+  .selectedButton {
+    background: #0f550f;
+  }
+  
+  .selectedButton > a {
+    color: #fddbaf;
+  }
+  
+  .subhead {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .endangered {
+    color: red;
+  }
+  
+  .latin {
+    font-style: italic;
+  }
+  
+  .linkTitle {
+    font-style: italic;
+  }
+  
+
+  
+  #preservation-flexContainer {
+    align-items: center;
+  }
+  
+  #image--live {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+  }
+  
+  #image--silhouette {
+    width: 75%;
+    margin-left: 100px;
+  }
+  
+  #image--collage {
+    padding-right: 20px;
+    width: 45%;
+  }
+  
